@@ -1,0 +1,263 @@
+/** Main Body **/
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-size: small;
+    height: 100%;
+    font-family: arial, sans-serif;
+}
+/** Main Container **/
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+/** Middle Section **/
+section {
+    flex: 1;
+    background: white;
+}
+/** Navagation Bar **/
+nav {
+    display: flex;
+    background: white;
+}
+
+nav .push {
+    margin-left: auto;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.about-store {
+    margin: 7px 0 0 10px;
+    position: absolute;
+}
+
+.top-nav-style  {
+    font-size: 13px;
+    margin-top: 16px;
+}
+
+.about .store   {
+    margin: 7px 0 0 10px;
+}
+
+.user-panel {
+    padding-left: 30px;
+    padding-right: 30px;
+    position: relative;
+    text-align: right;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+li {
+    display: inline;
+}
+
+.gmail {
+    padding-right: 0 0 0 15px;
+}
+
+.images-link {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.google-apps {
+
+    background-image: url(//ssl.gstatic.com/gb/images/i1_1967ca6a.png);
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    background-position: -132px -38px;
+    opacity: .55;
+    vertical-align: middle;
+}
+
+.sign-border {
+    padding: 0 0 0 15px;
+}
+
+a {
+    color: rgba(0,0,0,0.87);
+    text-decoration: none;
+    line-height: 24px;
+}
+
+.sign-in {
+    border: 1px solid #4285f4;
+    font-weight: bold;
+    outline: none;
+    background: -webkit-linear-gradient(top, #4387fd, #4683ea);
+    display: inline-block;
+    line-height: 28px;
+    padding: 0 12px;
+    border-radius: 2px;
+    color: #FFFFFF;
+}
+
+.about-link {
+    padding-left: 15px;
+    line-height: center;
+}
+
+.store-link {
+    padding-left: 15px;
+    line-height: center;
+}
+
+/** Footer **/
+footer {
+    display: flex;
+    background: white;
+}
+
+.bot-nav-style {
+    font-size: 14px;
+    line-height: 40px;
+    border-top: 1px solid #dadce0;
+}
+
+footer .push {
+    margin-left: auto;
+}
+
+.bot-left {
+    margin-left: 30px;
+}
+
+.tos {
+    margin-right: 30px;
+}
+
+.spacing  {
+    padding-left: 27px;
+}
+
+/** Content **/
+
+.logo {
+    padding-top: 150px;
+    text-align: center;
+}
+
+.search-main {
+    display: flex;
+    margin-top: 15px;    
+}
+
+.search-form {
+    background: #fff;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    z-index: 3;
+    min-width: 582px;
+    height: 44px;
+    margin: 0 auto;
+    width: auto;
+}
+
+.search-container {
+    display: flex;
+    padding: 5px 8px 0 16px;
+    padding-left: 14px;
+}
+
+.search-container .search-icon {
+    margin-top: 7px;
+    color: #9aa0a6;
+    height: 20px;
+    width: 20px;
+}
+
+.search-bar {
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    margin-left: 10px;
+}
+
+.search-box {
+    color: transparent;
+    white-space: pre;
+    display: flex;
+    flex: 100%;
+}
+
+input {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    display: flex;
+    flex: 100%;
+    margin-top: -4px;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.87);
+    line-height: 40px;
+}
+
+.search-icon {
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.icon {
+    display: inline-block;
+    fill: currentColor;
+    line-height: 24px;
+    position: relative;
+}
+
+.search-mic {
+    display: inline-block;
+    margin-left: auto;
+    height: 24px;
+    width: 24px;
+    margin-top: 2px;
+    margin-right: 10px;
+}
+
+.main-btns {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    color: transparent;
+}
+
+.btn-style {
+    background-image: -webkit-linear-gradient(top, #f5f5f5, #f1f1f1);
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5f6368;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.main-bottom {
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
